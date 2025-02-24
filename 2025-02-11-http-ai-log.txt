@@ -1,0 +1,9 @@
+2025-02-11 17:24:57,714 - test_ai starting v0.11
+2025-02-11 18:56:03,553 - test_ai starting v0.12
+2025-02-11 18:56:25,489 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-11 18:58:28,281 - test_ai starting v0.12
+2025-02-11 18:58:33,417 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-11 19:00:28,628 - test_ai starting v0.12
+2025-02-11 19:00:35,492 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-11 19:03:28,572 - test_ai starting v0.12
+2025-02-11 19:03:34,720 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE

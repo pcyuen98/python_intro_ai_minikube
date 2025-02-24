@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: python-ai
+  name: python-ai
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: python-ai
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: python-ai
+    spec:
+      containers:
+        - image: python_ai:v0.13
+          name: python-ai-mxp4s
+          imagePullPolicy: Never
+          resources:
+            limits:  # Limits are the maximum resources a container can use
+              memory: "500Mi" # 500 MB (Mi = mebibytes, a common unit in Kubernetes)
+              cpu: 1 # 1 core
+status: {}

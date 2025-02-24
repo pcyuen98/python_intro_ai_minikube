@@ -1,0 +1,220 @@
+2025-02-13 12:00:20,443 - test_ai starting v0.13
+2025-02-13 12:01:03,565 - HTTPPostChatGeneral  total user-->0
+2025-02-13 12:01:20,064 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:01:33,362 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:02:48,775 - test_ai starting v0.13
+2025-02-13 12:03:00,107 - HTTPPostChatGeneral  total user-->0
+2025-02-13 12:03:07,918 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:03:08,014 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:03:08,077 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:03:08,148 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:03:48,562 - HTTPPostChatGeneral  total user-->5
+2025-02-13 12:03:48,629 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:03:48,693 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:03:48,770 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:05:21,324 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:05:21,451 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:05:21,568 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:05:21,653 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:05:36,373 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:05:36,649 - HTTPPostChatGeneral  total user-->5
+2025-02-13 12:05:36,769 - HTTPPostChatGeneral  total user-->6
+2025-02-13 12:05:36,873 - HTTPPostChatGeneral  total user-->7
+2025-02-13 12:07:49,383 - HTTPPostChatGeneral  total user-->8
+2025-02-13 12:07:49,573 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:07:49,721 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:07:49,886 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:08:15,872 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:08:15,986 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:08:16,051 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:08:16,154 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:09:07,020 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:09:07,114 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:09:07,263 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:09:07,391 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:09:43,713 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:09:43,972 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:09:44,221 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:09:44,470 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:11:16,975 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:11:17,115 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:11:17,310 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:11:17,395 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:13:44,619 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:13:44,718 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:13:44,800 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:13:44,866 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:22:43,563 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:22:44,648 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:22:44,745 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:22:44,784 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:24:26,881 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:24:26,970 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:24:27,021 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:24:27,070 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:24:50,290 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:24:50,351 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:24:50,417 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:24:50,469 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:25:15,844 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:25:16,115 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:25:16,224 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:25:16,318 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:29:35,179 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:29:49,328 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:30:22,833 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:34:26,291 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:34:26,357 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:34:26,414 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:34:26,472 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:34:33,637 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:34:33,728 - HTTPPostChatGeneral  total user-->5
+2025-02-13 12:34:33,820 - HTTPPostChatGeneral  total user-->6
+2025-02-13 12:34:33,924 - HTTPPostChatGeneral  total user-->7
+2025-02-13 12:34:39,842 - HTTPPostChatGeneral  total user-->8
+2025-02-13 12:34:39,938 - HTTPPostChatGeneral  total user-->9
+2025-02-13 12:34:40,027 - HTTPPostChatGeneral  total user-->10
+2025-02-13 12:34:40,069 - HTTPPostChatGeneral  total user-->11
+2025-02-13 12:35:41,844 - HTTPPostChatGeneral  total user-->12
+2025-02-13 12:35:43,123 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:35:43,199 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:35:43,267 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:38:02,059 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:38:02,216 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:38:02,332 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:38:02,420 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:38:10,639 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:38:10,726 - HTTPPostChatGeneral  total user-->5
+2025-02-13 12:38:10,834 - HTTPPostChatGeneral  total user-->6
+2025-02-13 12:38:10,904 - HTTPPostChatGeneral  total user-->7
+2025-02-13 12:38:52,999 - HTTPPostChatGeneral  total user-->8
+2025-02-13 12:38:54,058 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:38:54,204 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:38:54,268 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:41:18,248 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:41:18,317 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:41:18,385 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:41:18,443 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:42:03,027 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:42:03,137 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:42:03,229 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:42:03,341 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:44:14,889 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:44:31,837 - test_ai starting v0.13
+2025-02-13 12:44:41,779 - HTTPPostChatGeneral  total user-->0
+2025-02-13 12:44:50,178 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:44:50,354 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:44:50,473 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:44:50,558 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:47:33,213 - HTTPPostChatGeneral  total user-->5
+2025-02-13 12:47:33,356 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:47:33,464 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:47:33,587 - HTTPPostChatGeneral  total user-->3
+2025-02-13 12:47:39,043 - HTTPPostChatGeneral  total user-->4
+2025-02-13 12:47:39,154 - HTTPPostChatGeneral  total user-->5
+2025-02-13 12:47:39,252 - HTTPPostChatGeneral  total user-->6
+2025-02-13 12:47:39,363 - HTTPPostChatGeneral  total user-->7
+2025-02-13 12:48:01,371 - HTTPPostChatGeneral  total user-->8
+2025-02-13 12:48:01,569 - HTTPPostChatGeneral  total user-->1
+2025-02-13 12:48:01,724 - HTTPPostChatGeneral  total user-->2
+2025-02-13 12:48:01,970 - HTTPPostChatGeneral  total user-->3
+2025-02-13 13:30:38,721 - HTTPPostChatGeneral  total user-->4
+2025-02-13 13:30:38,820 - HTTPPostChatGeneral  total user-->1
+2025-02-13 13:30:39,129 - HTTPPostChatGeneral  total user-->2
+2025-02-13 13:30:39,527 - HTTPPostChatGeneral  total user-->3
+2025-02-13 13:31:37,969 - test_ai starting v0.13
+2025-02-13 13:31:48,481 - HTTPPostChatGeneral  total user-->0
+2025-02-13 13:31:51,783 - Traceback (most recent call last):
+  File "D:\workspace\python_ai_minikube\gemini_api.py", line 148, in ask_feedback
+    response_json = json.loads(response_json)  # Parse the JSON string into a Python dictionary
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 70, in decode
+    raise e
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 5 column 18 (char 121)
+
+2025-02-13 13:31:51,783 - Ask AI Parsing Response Error -->Expecting ',' delimiter: line 5 column 18 (char 121) response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "The app loading is slow.How are u",
+    "answer": "I"m doing well, thank you for letting me know about the slow loading.  We"ll look into it.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0
+}
+
+
+2025-02-13 13:31:53,186 - Traceback (most recent call last):
+  File "D:\workspace\python_ai_minikube\gemini_api.py", line 148, in ask_feedback
+    response_json = json.loads(response_json)  # Parse the JSON string into a Python dictionary
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 70, in decode
+    raise e
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 5 column 18 (char 121)
+
+2025-02-13 13:31:53,186 - Ask AI Parsing Response Error -->Expecting ',' delimiter: line 5 column 18 (char 121) response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "The app loading is slow.How are u",
+    "answer": "I"m doing well, thank you for letting me know about the slow loading.  I"ll report this issue to the development team.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0
+}
+
+
+2025-02-13 13:31:54,523 - Traceback (most recent call last):
+  File "D:\workspace\python_ai_minikube\gemini_api.py", line 148, in ask_feedback
+    response_json = json.loads(response_json)  # Parse the JSON string into a Python dictionary
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 70, in decode
+    raise e
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 5 column 18 (char 121)
+
+2025-02-13 13:31:54,523 - Ask AI Parsing Response Error -->Expecting ',' delimiter: line 5 column 18 (char 121) response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "The app loading is slow.How are u",
+    "answer": "I"m fine, thank you for letting me know about the slow loading.  We"ll investigate the issue.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0
+}
+
+
+2025-02-13 13:32:14,850 - HTTPPostChatGeneral  total user-->4
+2025-02-13 13:32:38,789 - HTTPPostChatGeneral  total user-->1
+2025-02-13 13:32:56,911 - HTTPPostChatGeneral  total user-->1
+2025-02-13 14:01:42,453 - HTTPPostChatGeneral  total user-->2
