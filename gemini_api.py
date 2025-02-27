@@ -92,7 +92,6 @@ class GeminiAPIKube:
         count = 0
         while True:
             try:
-                GeminiAPIKube.check_quota()
                 count += 1
                 if count >= 5:
                     raise  web.InternalError(json.dumps({"message": "AI Error Processing"})) 

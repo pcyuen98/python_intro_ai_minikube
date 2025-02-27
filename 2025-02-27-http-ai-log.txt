@@ -104,3 +104,718 @@ TypeError: FeedbackResponse.__init__() got an unexpected keyword argument 'descr
     "idiom_explaination_my": "Peribahasa ini bermaksud apabila ramai orang bekerjasama untuk sesuatu tugasan, tugasan itu akan menjadi lebih mudah dan kurang membebankan bagi setiap individu. Ia mengetengahkan kebaikan kerja berpasukan dan kerjasama.",
     "idiom_explaination_cn": "\u8fd9\u4e2a\u6210\u8bed\u7684\u610f\u601d\u662f\u5f53\u5f88\u591a\u4eba\u4e00\u8d77\u5b8c\u6210\u4e00\u9879\u4efb\u52a1\u65f6\uff0c\u8fd9\u9879\u4efb\u52a1\u5bf9\u6bcf\u4e2a\u4eba\u7684\u8d1f\u62c5\u90fd\u4f1a\u51cf\u8f7b\u3002\u5b83\u7a81\u51fa\u4e86\u56e2\u961f\u5408\u4f5c\u548c\u534f\u4f5c\u7684\u597d\u5904\u3002"
 }
+2025-02-27 12:49:12,879 - test_ai starting v0.131
+2025-02-27 12:49:29,074 - HTTPPostChatGeneral  total user-->0
+2025-02-27 12:49:43,848 - HTTPPostChatGeneral  total user-->2
+2025-02-27 12:49:57,586 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-27 12:49:57,848 - HTTPPostChatGeneral  total user-->4
+2025-02-27 12:49:57,851 -  ask An exception occurred:404 Not Found
+2025-02-27 12:49:57,852 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:00,868 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:00,869 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:03,881 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:03,882 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:06,891 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:06,892 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:09,897 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:09,897 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:12,903 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:12,904 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:15,917 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:15,918 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:18,927 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:18,928 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:21,934 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:21,936 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:24,938 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:24,938 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:27,941 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:27,942 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:30,954 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:30,955 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:33,968 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:33,970 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:36,974 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:36,975 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:39,980 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:39,981 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:42,985 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:42,985 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:45,987 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:45,989 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:48,991 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:48,993 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:51,996 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:51,997 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:55,008 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:55,008 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:50:58,014 -  ask An exception occurred:404 Not Found
+2025-02-27 12:50:58,015 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:01,024 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:01,027 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:04,040 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:04,042 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:07,050 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:07,051 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:10,061 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:10,062 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:13,072 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:13,073 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:16,087 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:16,087 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:19,094 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:19,095 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:22,107 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:22,107 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:25,114 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:25,115 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:28,124 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:28,124 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:31,131 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:31,131 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:34,139 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:34,139 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:37,149 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:37,149 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:40,159 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:40,161 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:43,178 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:43,180 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:46,195 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:46,195 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:49,208 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:49,209 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:52,226 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:52,228 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:55,245 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:55,245 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:51:58,260 -  ask An exception occurred:404 Not Found
+2025-02-27 12:51:58,261 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:01,268 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:01,268 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:04,284 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:04,285 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:07,295 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:07,295 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:10,310 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:10,310 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:13,322 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:13,323 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:16,335 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:16,336 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:19,351 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:19,352 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:22,364 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:22,365 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:25,367 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:25,368 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:28,375 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:28,375 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:31,382 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:31,383 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:34,387 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:34,389 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:37,393 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:37,393 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:40,406 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:40,407 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:43,408 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:43,409 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:46,414 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:46,414 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:49,420 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:49,423 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:52,431 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:52,431 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:55,439 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:55,440 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:52:58,453 -  ask An exception occurred:404 Not Found
+2025-02-27 12:52:58,454 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:01,465 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:01,466 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:04,477 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:04,477 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:07,484 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:07,485 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:15,252 - test_ai starting v0.131
+2025-02-27 12:53:22,106 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-27 12:53:27,745 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-27 12:53:29,273 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:29,275 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:32,281 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:32,281 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:35,288 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:35,290 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:38,305 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:38,305 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:41,315 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:41,316 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:44,328 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:44,329 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:47,330 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:47,330 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:50,337 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:50,338 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:53,353 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:53,354 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:56,360 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:56,360 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:53:59,373 -  ask An exception occurred:404 Not Found
+2025-02-27 12:53:59,374 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:54:02,385 -  ask An exception occurred:404 Not Found
+2025-02-27 12:54:02,386 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:54:05,404 -  ask An exception occurred:404 Not Found
+2025-02-27 12:54:05,405 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 95, in ask_anything
+    GeminiAPIKube.check_quota()
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 203, in check_quota
+    raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
+web.webapi._NotFound: 404 Not Found
+
+2025-02-27 12:54:12,164 - test_ai starting v0.131
+2025-02-27 12:54:15,179 - HTTPPostChatGeneral  total user-->0
+2025-02-27 12:54:15,180 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "is_title_an_english_language": "",
+    "daily_count": 0
+}
+2025-02-27 12:54:18,145 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": "The year 1990 witnessed significant global events, including the fall of the Berlin Wall, the beginning of the Gulf War, and advancements in technology like the launch of the Hubble Space Telescope and the release of the first web browser.  Numerous cultural milestones also occurred, shaping the decade to come.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "is_title_an_english_language": true,
+    "daily_count": 0
+}
+```
+
+2025-02-27 12:54:21,591 - HTTPPostChatGeneral  total user-->1
+2025-02-27 12:54:21,609 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "is_title_an_english_language": "",
+    "daily_count": 0
+}
+2025-02-27 12:54:24,464 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": "1990 saw the reunification of Germany, the beginning of the first Gulf War, and the publication of Tim Berners-Lee's proposal for the World Wide Web.  Many other significant events occurred in various fields, impacting global politics, technology, and culture.  A 3000-word essay could delve into these events in detail.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "is_title_an_english_language": "",
+    "daily_count": 0
+}
+```
+
+2025-02-27 12:54:41,324 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-27 12:54:58,698 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-27 12:58:01,663 - test_ai starting v0.131
+2025-02-27 12:58:06,327 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-27 12:58:09,448 - HTTPPostChatGeneral  total user-->2
+2025-02-27 12:58:09,451 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "is_title_an_english_language": "",
+    "daily_count": 0
+}
+2025-02-27 12:58:12,288 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": "1990 was a year of significant global events, including the reunification of Germany, the beginning of the Gulf War, and the release of several landmark cultural products.  A detailed response would require significantly more than 3000 words to cover all aspects.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "is_title_an_english_language": true,
+    "daily_count": 0
+}
+```
+
+2025-02-27 12:58:17,265 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-27 12:58:28,871 - HTTPPostChatGeneral  total user-->5

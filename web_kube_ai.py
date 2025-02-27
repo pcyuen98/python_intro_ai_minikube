@@ -29,6 +29,10 @@ class Chat_Test(object):
         feedbackResponse = FeedbackResponse()
         feedbackResponse.total_ask = total_user
         feedbackResponse.question = ques
+                        
+        daily_count = next(iter(GeminiAPIKube.daily_count.values()), None)
+        feedbackResponse.daily_count = daily_count
+        
         feedbackResponse = jsonpickle.encode(feedbackResponse, indent=4)
         
         header = 'fill in the blank, do not change the json elements and return in this json format only for python processing. '
