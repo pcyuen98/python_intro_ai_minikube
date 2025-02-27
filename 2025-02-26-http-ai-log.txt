@@ -1,0 +1,921 @@
+2025-02-26 10:36:07,172 - test_ai starting v0.13
+2025-02-26 10:39:35,243 - test_ai starting v0.13
+2025-02-26 10:43:39,478 - test_ai starting v0.13
+2025-02-26 10:43:45,898 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 10:43:46,969 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:13:05,928 - test_ai starting v0.13
+2025-02-26 11:15:35,622 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:15:44,154 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:16:31,394 - test_ai starting v0.13
+2025-02-26 11:16:46,222 - test_ai starting v0.13
+2025-02-26 11:16:51,843 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:16:57,099 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:18:24,324 - test_ai starting v0.13
+2025-02-26 11:19:25,557 - test_ai starting v0.13
+2025-02-26 11:19:30,570 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:26:56,007 - test_ai starting v0.13
+2025-02-26 11:26:59,476 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 106, in ask_anything
+    response_json.daily_count = daily_count
+AttributeError: 'dict' object has no attribute 'daily_count'
+
+2025-02-26 11:26:59,476 - Ask AI Parsing Response Error -->'dict' object has no attribute 'daily_count' response={'py/object': 'gemini_api.FeedbackResponse', 'question': 'anything special in 1971', 'answer': 'In 1971, significant events included the end of the Bretton Woods system, the beginning of the Bangladesh Liberation War, and the release of several influential albums.', 'node_name': 'default', 'isValidApplicationSuggestion': None, 'isHarmful': None, 'harmfulType': '', 'total_ask': 1, 'daily_count': 0}
+2025-02-26 11:27:00,783 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 106, in ask_anything
+    response_json.daily_count = daily_count
+AttributeError: 'dict' object has no attribute 'daily_count'
+
+2025-02-26 11:27:00,784 - Ask AI Parsing Response Error -->'dict' object has no attribute 'daily_count' response={'py/object': 'gemini_api.FeedbackResponse', 'question': 'anything special in 1971', 'answer': "In 1971, significant events included the end of the Bretton Woods system, the beginning of the Bangladesh Liberation War, and the release of Pink Floyd's album 'Meddle'.", 'node_name': 'default', 'isValidApplicationSuggestion': None, 'isHarmful': None, 'harmfulType': '', 'total_ask': 1, 'daily_count': 0}
+2025-02-26 11:27:02,230 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 106, in ask_anything
+    response_json.daily_count = daily_count
+AttributeError: 'dict' object has no attribute 'daily_count'
+
+2025-02-26 11:27:02,230 - Ask AI Parsing Response Error -->'dict' object has no attribute 'daily_count' response={'py/object': 'gemini_api.FeedbackResponse', 'question': 'anything special in 1971', 'answer': "In 1971, significant events included the end of the Bretton Woods system, the beginning of the Bangladesh Liberation War, and the release of the iconic album 'What's Going On' by Marvin Gaye.", 'node_name': 'default', 'isValidApplicationSuggestion': None, 'isHarmful': None, 'harmfulType': '', 'total_ask': 1, 'daily_count': 0}
+2025-02-26 11:27:03,612 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 106, in ask_anything
+    response_json.daily_count = daily_count
+AttributeError: 'dict' object has no attribute 'daily_count'
+
+2025-02-26 11:27:03,613 - Ask AI Parsing Response Error -->'dict' object has no attribute 'daily_count' response={'py/object': 'gemini_api.FeedbackResponse', 'question': 'anything special in 1971', 'answer': "In 1971, significant events included the end of the Bretton Woods system, the launch of Intel's first microprocessor (the 4004), and the start of the Bangladesh Liberation War.", 'node_name': 'default', 'isValidApplicationSuggestion': None, 'isHarmful': None, 'harmfulType': '', 'total_ask': 1, 'daily_count': 0}
+2025-02-26 11:28:53,914 - test_ai starting v0.13
+2025-02-26 11:28:58,904 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 105, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+TypeError: FeedbackResponse.__init__() got an unexpected keyword argument 'py/object'
+
+2025-02-26 11:28:58,904 - Ask AI Parsing Response Error -->FeedbackResponse.__init__() got an unexpected keyword argument 'py/object' response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1966",
+    "answer": "Many things happened in 1966!  To give you a useful answer, I need more specifics.  Are you interested in a particular area like politics, music, technology, or a specific event?",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 1,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:29:00,256 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 105, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+TypeError: FeedbackResponse.__init__() got an unexpected keyword argument 'py/object'
+
+2025-02-26 11:29:00,256 - Ask AI Parsing Response Error -->FeedbackResponse.__init__() got an unexpected keyword argument 'py/object' response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1966",
+    "answer": "Many things happened in 1966!  To give you a helpful answer, I need more specifics.  Are you interested in a particular area, like politics, culture, technology, or a specific event?",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 1,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:29:01,521 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 105, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+TypeError: FeedbackResponse.__init__() got an unexpected keyword argument 'py/object'
+
+2025-02-26 11:29:01,521 - Ask AI Parsing Response Error -->FeedbackResponse.__init__() got an unexpected keyword argument 'py/object' response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1966",
+    "answer": "Many things happened in 1966!  To give you a helpful answer, I need more specifics.  Are you interested in world events, pop culture, technology, or something else?",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 1,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:29:02,917 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 105, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+TypeError: FeedbackResponse.__init__() got an unexpected keyword argument 'py/object'
+
+2025-02-26 11:29:02,917 - Ask AI Parsing Response Error -->FeedbackResponse.__init__() got an unexpected keyword argument 'py/object' response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1966",
+    "answer": "Many things happened in 1966!  To give you a helpful answer, I need more specifics.  Are you interested in a particular area, like politics, culture, science, or a specific country/region?",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 1,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:29:02,917 -  ask An exception occurred:500 Internal Server Error
+2025-02-26 11:29:02,918 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 96, in ask_anything
+    raise  web.InternalError(json.dumps({"message": "AI Error Processing"}))
+web.webapi._InternalError: 500 Internal Server Error
+
+2025-02-26 11:29:05,925 -  ask An exception occurred:500 Internal Server Error
+2025-02-26 11:29:05,926 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 96, in ask_anything
+    raise  web.InternalError(json.dumps({"message": "AI Error Processing"}))
+web.webapi._InternalError: 500 Internal Server Error
+
+2025-02-26 11:29:45,383 - test_ai starting v0.13
+2025-02-26 11:29:49,944 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 106, in ask_anything
+    del response_json["py/object"]  # Remove the "py/object" key
+TypeError: 'str' object does not support item deletion
+
+2025-02-26 11:29:49,945 - Ask AI Parsing Response Error -->'str' object does not support item deletion response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1941",
+    "answer": "The attack on Pearl Harbor and the United States' entry into World War II.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 1,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:29:51,248 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 106, in ask_anything
+    del response_json["py/object"]  # Remove the "py/object" key
+TypeError: 'str' object does not support item deletion
+
+2025-02-26 11:29:51,250 - Ask AI Parsing Response Error -->'str' object does not support item deletion response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1941",
+    "answer": "The attack on Pearl Harbor by Japan on December 7, 1941, which led to the United States' entry into World War II, is a significant event.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 1,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:29:52,399 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 106, in ask_anything
+    del response_json["py/object"]  # Remove the "py/object" key
+TypeError: 'str' object does not support item deletion
+
+2025-02-26 11:29:52,399 - Ask AI Parsing Response Error -->'str' object does not support item deletion response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1941",
+    "answer": "The attack on Pearl Harbor and the subsequent entry of the United States into World War II.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 1,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:29:53,688 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 106, in ask_anything
+    del response_json["py/object"]  # Remove the "py/object" key
+TypeError: 'str' object does not support item deletion
+
+2025-02-26 11:29:53,688 - Ask AI Parsing Response Error -->'str' object does not support item deletion response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1941",
+    "answer": "The attack on Pearl Harbor, which brought the United States into World War II, occurred on December 7, 1941.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 1,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:29:53,688 -  ask An exception occurred:500 Internal Server Error
+2025-02-26 11:29:53,688 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 96, in ask_anything
+    raise  web.InternalError(json.dumps({"message": "AI Error Processing"}))
+web.webapi._InternalError: 500 Internal Server Error
+
+2025-02-26 11:30:27,851 - test_ai starting v0.13
+2025-02-26 11:30:33,166 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 107, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+
+2025-02-26 11:30:33,167 - Ask AI Parsing Response Error -->the JSON object must be str, bytes or bytearray, not dict response={'question': 'anything special in 1918', 'answer': 'The end of World War I (November 11th) is a significant event from 1918.  The Spanish Flu pandemic also began that year, causing a devastating global health crisis.', 'node_name': 'default', 'isValidApplicationSuggestion': None, 'isHarmful': None, 'harmfulType': '', 'total_ask': 1, 'daily_count': 0}
+2025-02-26 11:30:34,401 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 107, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+
+2025-02-26 11:30:34,401 - Ask AI Parsing Response Error -->the JSON object must be str, bytes or bytearray, not dict response={'question': 'anything special in 1918', 'answer': 'The end of World War I (November 11th) is a significant event from 1918.', 'node_name': 'default', 'isValidApplicationSuggestion': None, 'isHarmful': None, 'harmfulType': '', 'total_ask': 1, 'daily_count': 0}
+2025-02-26 11:30:35,618 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 107, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+
+2025-02-26 11:30:35,618 - Ask AI Parsing Response Error -->the JSON object must be str, bytes or bytearray, not dict response={'question': 'anything special in 1918', 'answer': 'The end of World War I (Armistice Day) and the Spanish Flu pandemic.', 'node_name': 'default', 'isValidApplicationSuggestion': None, 'isHarmful': None, 'harmfulType': '', 'total_ask': 1, 'daily_count': 0}
+2025-02-26 11:30:36,860 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 107, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+
+2025-02-26 11:30:36,860 - Ask AI Parsing Response Error -->the JSON object must be str, bytes or bytearray, not dict response={'question': 'anything special in 1918', 'answer': 'The Spanish flu pandemic began, World War I ended with the Armistice, and the Russian Civil War continued.', 'node_name': 'default', 'isValidApplicationSuggestion': None, 'isHarmful': None, 'harmfulType': '', 'total_ask': 1, 'daily_count': 0}
+2025-02-26 11:30:36,861 -  ask An exception occurred:500 Internal Server Error
+2025-02-26 11:30:36,861 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 96, in ask_anything
+    raise  web.InternalError(json.dumps({"message": "AI Error Processing"}))
+web.webapi._InternalError: 500 Internal Server Error
+
+2025-02-26 11:32:47,340 - test_ai starting v0.13
+2025-02-26 11:32:52,458 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 107, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+
+2025-02-26 11:32:52,458 - Ask AI Parsing Response Error -->the JSON object must be str, bytes or bytearray, not dict response={'question': 'anything special in 1992', 'answer': 'In 1992, significant events included the dissolution of the Soviet Union, the Barcelona Olympics, and the release of the film "The Crying Game."', 'node_name': 'default', 'isValidApplicationSuggestion': None, 'isHarmful': None, 'harmfulType': '', 'total_ask': 1, 'daily_count': 0}
+2025-02-26 11:32:53,903 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 107, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+
+2025-02-26 11:32:53,903 - Ask AI Parsing Response Error -->the JSON object must be str, bytes or bytearray, not dict response={'question': 'anything special in 1992', 'answer': 'In 1992, several significant events occurred globally.  The World Wide Web started gaining widespread use,  the Maastricht Treaty was signed establishing the European Union, and the Barcelona Olympics were held.  In the United States, Bill Clinton was elected president.', 'node_name': 'default', 'isValidApplicationSuggestion': None, 'isHarmful': None, 'harmfulType': '', 'total_ask': 1, 'daily_count': 0}
+2025-02-26 11:33:06,134 - test_ai starting v0.13
+2025-02-26 11:33:34,502 - test_ai starting v0.13
+2025-02-26 11:34:40,551 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 112, in ask_anything
+    response_json = json.dumps(feedbackResponse)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 46, in encode
+    raise e
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 41, in encode
+    return self.backend_encode(
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 214, in backend_encode
+    return self._encoders[name](*encoder_args, **encoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "D:\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FeedbackResponse is not JSON serializable
+
+2025-02-26 11:34:40,553 - Ask AI Parsing Response Error -->Object of type FeedbackResponse is not JSON serializable response={
+    "question": "anything special in 1969",
+    "answer": "The Apollo 11 mission landed the first humans on the Moon.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 1,
+    "daily_count": 0
+}
+2025-02-26 11:36:02,509 - test_ai starting v0.13
+2025-02-26 11:36:08,036 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:37:05,636 - test_ai starting v0.13
+2025-02-26 11:37:10,954 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:38:52,119 - test_ai starting v0.13
+2025-02-26 11:38:59,147 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:39:04,488 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:39:08,203 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:39:11,817 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:39:47,860 - HTTPPostChatGeneral  total user-->4
+2025-02-26 11:39:47,862 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. {
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:39:52,056 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "To determine if anything special happened today requires knowing your location and interests.  There's no single global 'special' event.  However, I can offer some suggestions for finding out what's noteworthy in your area:
+
+Check local news websites or apps:  Most cities and regions have online news sources that report on local events, happenings, and news.  This is the best place to find out about local events like festivals, concerts, or community gatherings.
+
+Look at event calendars: Many websites and apps specialize in listing events happening in specific geographic areas.  These calendars often categorize events by type (concerts, conferences, festivals, etc.) making it easy to find something that interests you.
+
+Consult social media: Social media platforms, particularly those relevant to your location, can provide real-time updates on local events and trends.  Search for hashtags related to your city or region.
+
+Check weather reports:  Significant weather events—storms, heatwaves, unusual weather patterns—can be considered 'special' as they often disrupt daily life.  A quick weather check will alert you to any significant developments.
+
+Consider personal milestones:  Don't forget to look at your own life!  Is it a birthday, anniversary, or other significant personal event?  These are certainly special, even if they aren't publicly celebrated.
+
+
+In short, 'special' is subjective.  By using the resources above and considering your own experiences, you'll be well-equipped to determine what constitutes a special day for you.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:40:40,711 - test_ai starting v0.13
+2025-02-26 11:40:51,465 - HTTPPostChatGeneral  total user-->0
+2025-02-26 11:40:51,465 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. {
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:40:54,846 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "Today is unremarkable in the grand scheme of things.  No major world events are unfolding, no significant scientific breakthroughs have been announced, and no widely celebrated holidays are observed.  The sun rose, the sun will set, and the world continues its ceaseless rotation.  This ordinariness, however, is perhaps the most special aspect of today.  It's a chance to appreciate the quiet moments, the simple routines, and the everyday joys that often go unnoticed amidst the clamor for the extraordinary.
+
+Consider the small things: the warmth of the sun on your skin, the taste of your morning coffee, the smile of a loved one. These seemingly insignificant details weave together the fabric of our lives, creating a tapestry of experiences both mundane and beautiful.  Today presents an opportunity to find beauty in the commonplace, to appreciate the present moment without the need for grand gestures or spectacular events.
+
+Perhaps you might choose to focus on a personal project, spending time on a hobby, or simply enjoying some quiet contemplation.  The lack of significant external events allows for inward reflection, a chance to connect with yourself and your inner world.  The absence of the 'special' creates space for the creation of your own unique and personal significance.  Today's lack of extraordinary events is an invitation to find extraordinary meaning in the ordinary.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:40:54,866 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 144, in ask_feedback
+    response_json = json.loads(response_json)  # Parse the JSON string into a Python dictionary
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 70, in decode
+    raise e
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid control character at: line 5 column 526 (char 631)
+
+2025-02-26 11:40:54,868 - Ask AI Parsing Response Error -->Invalid control character at: line 5 column 526 (char 631) response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "Today is unremarkable in the grand scheme of things.  No major world events are unfolding, no significant scientific breakthroughs have been announced, and no widely celebrated holidays are observed.  The sun rose, the sun will set, and the world continues its ceaseless rotation.  This ordinariness, however, is perhaps the most special aspect of today.  It's a chance to appreciate the quiet moments, the simple routines, and the everyday joys that often go unnoticed amidst the clamor for the extraordinary.
+
+Consider the small things: the warmth of the sun on your skin, the taste of your morning coffee, the smile of a loved one. These seemingly insignificant details weave together the fabric of our lives, creating a tapestry of experiences both mundane and beautiful.  Today presents an opportunity to find beauty in the commonplace, to appreciate the present moment without the need for grand gestures or spectacular events.
+
+Perhaps you might choose to focus on a personal project, spending time on a hobby, or simply enjoying some quiet contemplation.  The lack of significant external events allows for inward reflection, a chance to connect with yourself and your inner world.  The absence of the 'special' creates space for the creation of your own unique and personal significance.  Today's lack of extraordinary events is an invitation to find extraordinary meaning in the ordinary.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:40:54,869 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. {
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:40:57,615 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "No specific global events stand out as exceptionally \"special\" today.  However, depending on your location and interests, many things could be considered special.  For example, a local festival or concert might be happening, a significant sporting event could be underway, or a personal milestone or celebration might be occurring.  The definition of \"special\" is entirely subjective.
+
+To find something special for *you* today, consider what brings you joy and fulfillment.   Perhaps it's spending quality time with loved ones, engaging in a favorite hobby, accomplishing a challenging task, or simply enjoying a moment of peace and quiet.  Focusing on the positive aspects of your day can transform the ordinary into something extraordinary.
+
+Remember that special moments aren't always grand gestures; they can be found in the quiet details:  the warmth of the sun on your skin, a delicious meal shared with friends, a kind word from a stranger, or the simple pleasure of a good book.  Be mindful and appreciate the small things; they often hold the greatest significance.  Today might not be historically remarkable on a global scale, but it holds the potential to be incredibly special for you, if you choose to see it that way.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:40:57,617 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 144, in ask_feedback
+    response_json = json.loads(response_json)  # Parse the JSON string into a Python dictionary
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 70, in decode
+    raise e
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid control character at: line 5 column 404 (char 509)
+
+2025-02-26 11:40:57,618 - Ask AI Parsing Response Error -->Invalid control character at: line 5 column 404 (char 509) response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "No specific global events stand out as exceptionally \"special\" today.  However, depending on your location and interests, many things could be considered special.  For example, a local festival or concert might be happening, a significant sporting event could be underway, or a personal milestone or celebration might be occurring.  The definition of \"special\" is entirely subjective.
+
+To find something special for *you* today, consider what brings you joy and fulfillment.   Perhaps it's spending quality time with loved ones, engaging in a favorite hobby, accomplishing a challenging task, or simply enjoying a moment of peace and quiet.  Focusing on the positive aspects of your day can transform the ordinary into something extraordinary.
+
+Remember that special moments aren't always grand gestures; they can be found in the quiet details:  the warmth of the sun on your skin, a delicious meal shared with friends, a kind word from a stranger, or the simple pleasure of a good book.  Be mindful and appreciate the small things; they often hold the greatest significance.  Today might not be historically remarkable on a global scale, but it holds the potential to be incredibly special for you, if you choose to see it that way.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:40:57,619 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. {
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:40:59,796 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "No specific globally significant events stand out today.  However, depending on your location and interests, 'special' could mean many things.  Check local news for events happening in your community – perhaps a festival, concert, or sporting event.  Consider checking online calendars for events in your area.  For those interested in global affairs, monitor news outlets for breaking developments in politics, business, or technology.  Even the weather could be considered 'special' today, if a significant weather event is impacting your area.  Ultimately, what constitutes a 'special' day is subjective and depends entirely on individual perspectives and experiences.  Perhaps today is special because you have a personal event planned, a cherished tradition you're celebrating, or simply the opportunity to enjoy a quiet moment of reflection.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:41:10,957 - HTTPPostChatGeneral  total user-->3
+2025-02-26 11:41:10,960 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. {
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:41:14,476 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "No specific, globally significant events stand out today.  However, depending on your location and interests, many things could be considered \"special.\"  For example, a local community might be celebrating a festival or holding a farmers market.  A sporting event could be underway, captivating fans worldwide.  Someone might be celebrating a personal milestone, like a birthday or anniversary.  The weather itself could be noteworthy – a rare snowfall, a stunning sunset, or an unusually warm day.  Even the simple act of spending quality time with loved ones can be special and meaningful.  In short, what constitutes \"special\" is subjective and depends entirely on individual perspectives and circumstances. To determine what is special *for you* today, consider what makes you happy, what you are looking forward to, and what significant events are occurring in your immediate surroundings. The news might offer broader perspectives on global happenings, but the truly special moments are often those found in the everyday.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:41:59,816 - test_ai starting v0.13
+2025-02-26 11:42:19,050 - HTTPPostChatGeneral  total user-->0
+2025-02-26 11:42:19,054 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. {
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:42:22,465 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "No specific global events stand out today.  However, depending on your location and interests, 'special' could mean many things.  For some, it might be a local festival, a sporting event, or a family gathering. Others might find significance in a personal milestone or a quiet moment of reflection.  The news cycle will likely feature ongoing political developments, economic reports, and advancements in technology, but whether these are 'special' depends entirely on individual perspective and priorities.
+
+To find something special for *you* today, consider focusing on the present moment.  Engage in activities that bring you joy, such as spending time with loved ones, pursuing a hobby, or simply enjoying the peace and quiet.  Sometimes, the most special moments are the simple ones, the unnoticed details of everyday life.  Look for the beauty in the ordinary, and you may be surprised by how much 'special' you discover.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:42:22,477 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 144, in ask_feedback
+    response_json = json.loads(response_json)  # Parse the JSON string into a Python dictionary
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 70, in decode
+    raise e
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid control character at: line 5 column 523 (char 628)
+
+2025-02-26 11:42:22,478 - Ask AI Parsing Response Error -->Invalid control character at: line 5 column 523 (char 628) response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "No specific global events stand out today.  However, depending on your location and interests, 'special' could mean many things.  For some, it might be a local festival, a sporting event, or a family gathering. Others might find significance in a personal milestone or a quiet moment of reflection.  The news cycle will likely feature ongoing political developments, economic reports, and advancements in technology, but whether these are 'special' depends entirely on individual perspective and priorities.
+
+To find something special for *you* today, consider focusing on the present moment.  Engage in activities that bring you joy, such as spending time with loved ones, pursuing a hobby, or simply enjoying the peace and quiet.  Sometimes, the most special moments are the simple ones, the unnoticed details of everyday life.  Look for the beauty in the ordinary, and you may be surprised by how much 'special' you discover.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:42:22,478 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. {
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:42:25,153 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "No specific global events stand out today.  However, depending on your location and interests, many things could be considered \"special.\"  For instance, a local farmers market might be bustling with fresh produce, a community theater could be showcasing a new play, or a sporting event could be drawing a large crowd.  In the world of technology, new software updates might be released, impacting your daily workflow.  Perhaps a scientific breakthrough was announced, or a significant political development unfolded.
+
+The definition of \"special\" is entirely subjective.  It's the events, large or small, that hold personal significance that truly make a day special.  Consider the little things:  a spontaneous act of kindness, a meaningful conversation, a delicious meal shared with loved ones, or the simple pleasure of a sunny afternoon spent outdoors.  These are the moments that create the richness and texture of everyday life, often more memorable than grand, widely publicized events.
+
+To truly identify something special, consider your own personal values and interests.  What events or activities resonate most deeply with you?  What moments bring you joy, fulfillment, or a sense of accomplishment?  These personal moments are what constitute a special day, unique to your own experience and perspective.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:42:25,155 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 144, in ask_feedback
+    response_json = json.loads(response_json)  # Parse the JSON string into a Python dictionary
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 70, in decode
+    raise e
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 67, in decode
+    return self.backend_decode(name, string)
+  File "D:\Python310\lib\site-packages\jsonpickle\backend.py", line 219, in backend_decode
+    return self._decoders[name](string, *optargs, **decoder_kwargs)
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid control character at: line 5 column 534 (char 639)
+
+2025-02-26 11:42:25,155 - Ask AI Parsing Response Error -->Invalid control character at: line 5 column 534 (char 639) response=
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "No specific global events stand out today.  However, depending on your location and interests, many things could be considered \"special.\"  For instance, a local farmers market might be bustling with fresh produce, a community theater could be showcasing a new play, or a sporting event could be drawing a large crowd.  In the world of technology, new software updates might be released, impacting your daily workflow.  Perhaps a scientific breakthrough was announced, or a significant political development unfolded.
+
+The definition of \"special\" is entirely subjective.  It's the events, large or small, that hold personal significance that truly make a day special.  Consider the little things:  a spontaneous act of kindness, a meaningful conversation, a delicious meal shared with loved ones, or the simple pleasure of a sunny afternoon spent outdoors.  These are the moments that create the richness and texture of everyday life, often more memorable than grand, widely publicized events.
+
+To truly identify something special, consider your own personal values and interests.  What events or activities resonate most deeply with you?  What moments bring you joy, fulfillment, or a sense of accomplishment?  These personal moments are what constitute a special day, unique to your own experience and perspective.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+
+
+2025-02-26 11:42:25,155 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. {
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:42:27,322 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 300 words",
+    "answer": "No specific globally significant events stand out today.  However, depending on your location and interests, 'special' could mean many things.  Check local news for community events, festivals, or openings.  For global news, scan headlines for major political developments, scientific breakthroughs, or significant cultural happenings.  Consider checking weather reports – an unexpected snowfall or unusually warm day could be considered special for some.   Ultimately, what constitutes a 'special' day is subjective and personal. It might involve a significant personal event, a moment of quiet reflection, or the simple pleasure of spending time with loved ones.  The beauty of a day often lies not in grand events, but in the small, individual experiences that make it unique.  So, perhaps instead of looking for something objectively 'special', consider what makes today special for you.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:44:06,830 - test_ai starting v0.13
+2025-02-26 11:44:14,164 - HTTPPostChatGeneral  total user-->0
+2025-02-26 11:44:14,165 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:44:16,723 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special today in 3000 words",
+    "answer": "No special events are scheduled for today.  To fill 3000 words, I could discuss various topics such as current events, historical analysis, fictional narratives, or scientific concepts.  Please provide a specific area of interest.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:44:34,632 - HTTPPostChatGeneral  total user-->1
+2025-02-26 11:44:34,641 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:44:37,087 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": "The year 1990 saw the fall of the Berlin Wall, the beginning of the Gulf War, and significant advancements in technology like the World Wide Web.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:44:58,276 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:45:06,748 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-26 11:45:27,979 - HTTPPostChatGeneral  total user-->2
+2025-02-26 11:45:27,986 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:45:31,011 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": "1990 saw the reunification of Germany, the beginning of the first Gulf War, and the release of several significant cultural works, including the movie 'Home Alone' and the album 'Nevermind' by Nirvana.  Technological advancements included the launch of the Hubble Space Telescope and the World Wide Web's early development.  Politically, the world grappled with the end of the Cold War and shifting global power dynamics.  A more detailed response would require a 3000-word essay.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:45:49,377 - HTTPPostChatGeneral  total user-->1
+2025-02-26 11:45:53,362 - HTTPPostChatGeneral  total user-->1
+2025-02-26 11:45:54,758 - HTTPPostChatGeneral  total user-->2
+2025-02-26 11:49:52,347 - HTTPPostChatGeneral  total user-->3
+2025-02-26 11:51:01,941 - test_ai starting v0.13
+2025-02-26 11:51:11,283 - HTTPPostChatGeneral  total user-->0
+2025-02-26 11:51:11,283 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:51:13,984 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": "1990 saw the reunification of Germany, the beginning of the first Gulf War, and the publication of Tim Berners-Lee's proposal for the World Wide Web.  Many other significant events occurred in various fields like technology, culture, and politics.  A 3000-word essay could explore these events in detail.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:51:15,885 - HTTPPostChatGeneral  total user-->1
+2025-02-26 11:51:15,889 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:51:18,593 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": "The year 1990 witnessed significant global events including the fall of the Berlin Wall, the beginning of the Gulf War, and Nelson Mandela's release from prison.  Technological advancements included the launch of the Hubble Space Telescope and the growing popularity of the World Wide Web.  Culturally, grunge music emerged and films like 'Home Alone' were box office successes.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:51:19,937 - HTTPPostChatGeneral  total user-->2
+2025-02-26 11:51:19,938 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:51:22,543 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": "The year 1990 saw the fall of the Berlin Wall, the beginning of the first Gulf War, and the release of several significant cultural works.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:51:24,305 - HTTPPostChatGeneral  total user-->3
+2025-02-26 11:51:24,308 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:51:27,066 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": "The year 1990 saw the reunification of Germany, the beginning of the first Gulf War, and significant technological advancements like the launch of the Hubble Space Telescope and the World Wide Web's early development.  Many other global events and cultural shifts occurred, impacting politics, economics and society.  A 3000-word essay could explore these in detail.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:51:29,686 - HTTPPostChatGeneral  total user-->4
+2025-02-26 11:51:31,678 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+2025-02-26 11:51:35,224 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": "1990 saw the reunification of Germany, the beginning of the first Gulf War, and the publication of Tim Berners-Lee's proposal for the World Wide Web.  Many significant cultural events also occurred, impacting music, film, and literature.  A 3000-word essay could explore these and other events in detail.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "daily_count": 0
+}
+```
+
+2025-02-26 11:51:36,322 - HTTPPostChatGeneral  total user-->5
+2025-02-26 11:51:36,322 - daily_count-->6

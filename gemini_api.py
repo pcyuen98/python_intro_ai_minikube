@@ -19,10 +19,12 @@ class FeedbackResponse:
     isHarmful: Optional[bool] = None
     harmfulType: str = ""
     total_ask: int = 0
+    daily_count: int = 0
     
     
 class GeminiAPIKube:
     total_ask = []
+    daily_count = {}
     api_key = os.environ.get('GOOGLE_API_KEY')
     total_ask_user = int(os.environ.get('TOTAL_ASK_USER'))
     node_name = os.environ.get('NODE_NAME')
@@ -100,8 +102,15 @@ class GeminiAPIKube:
                 try:
                     if GeminiAPIKube.is_json(response_json):
                         response_json = json.loads(response_json)
-                    response_json = json.dumps(response_json)
-                    break
+                        if "py/object" in response_json:  # Check if the key exists (important!)
+                            del response_json["py/object"]  # Remove the "py/object" key
+                        response_json = json.dumps(response_json, indent=4)
+                        feedbackResponse = FeedbackResponse(**json.loads(response_json))
+                        
+                        daily_count = next(iter(GeminiAPIKube.daily_count.values()), None)
+                        feedbackResponse.daily_count = daily_count
+                        response_json = jsonpickle.encode(feedbackResponse, indent=4)
+                        break
                 except Exception as error:
                     GeminiAPIKube.check_quota()
                     HTTPLog4AI.print_log (traceback.format_exc())
@@ -109,7 +118,7 @@ class GeminiAPIKube:
             except Exception as error:
                 #model = Gemini.getAIKey()
                 #Log4News.log(str(ques) + " gemini ask  " + str( traceback.format_exc()))
-                HTTPLog4AI.print_log(" ask An exception occurred:" + error)
+                HTTPLog4AI.print_log(" ask An exception occurred:" + str(error))
                 HTTPLog4AI.print_log (traceback.format_exc())
                 time.sleep(3)
         return response_json
@@ -140,6 +149,12 @@ class GeminiAPIKube:
                     response_json = json.dumps(response_json, indent=4) # Convert back to JSON
                     feedbackResponse = FeedbackResponse(**json.loads(response_json))
                     feedbackResponse.total_ask = len(GeminiAPIKube.total_ask)
+                    
+                    #GeminiAPIKube.update_daily_count()
+                    daily_count = next(iter(GeminiAPIKube.daily_count.values()), None)
+                    feedbackResponse.daily_count = daily_count
+                    #print ('after asked daily count-->', daily_count)
+                    
                     response_json = jsonpickle.encode(feedbackResponse, indent=4)
                     break
                 except Exception as error:
@@ -149,7 +164,7 @@ class GeminiAPIKube:
             except Exception as error:
                 #model = Gemini.getAIKey()
                 #Log4News.log(str(ques) + " gemini ask  " + str( traceback.format_exc()))
-                HTTPLog4AI.print_log(" ask An exception occurred:" + error)
+                HTTPLog4AI.print_log(" ask An exception occurred:" + str(error))
                 HTTPLog4AI.print_log (traceback.format_exc())
                 time.sleep(3)
         return response_json
@@ -160,11 +175,27 @@ class GeminiAPIKube:
         genai.configure(api_key=GeminiAPIKube.api_key)
         model = genai.GenerativeModel('gemini-1.5-flash')
         return model
-    
+
+    @staticmethod
+    def update_daily_count():
+        from datetime import datetime
+        """Updates the count for today's date and removes old entries."""
+        today = datetime.today().strftime("%Y-%m-%d")
+
+        # Remove outdated entries (keep only today's date)
+        GeminiAPIKube.daily_count = {today: GeminiAPIKube.daily_count.get(today, 0) + 1}
+        
     @staticmethod
     def check_quota():
         total_user = len(GeminiAPIKube.total_ask)
         GeminiAPIKube.total_ask = GeminiAPIKube.add_timestamp(GeminiAPIKube.total_ask, 20)
+        
+        GeminiAPIKube.update_daily_count()
+        daily_count = next(iter(GeminiAPIKube.daily_count.values()), None)
+        
+        if daily_count is not None and daily_count > 1000:
+            HTTPLog4AI.print_log ('daily_count-->'  + str(daily_count) )
+            raise  web.notfound (json.dumps({"message": "daily quota exceeded"})) # 404
         if total_user >= GeminiAPIKube.total_ask_user:
             raise  web.notfound (json.dumps({"message": "Too many requests"})) # 404
             

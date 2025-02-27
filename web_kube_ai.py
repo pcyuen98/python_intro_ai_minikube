@@ -74,7 +74,7 @@ class HTTPPostChatFeedback(object):
         json_data = json_data.decode('utf-8') 
         
         feedbackResponse = FeedbackResponse()
-        header = 'fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. '
+        header = 'fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words'
         feedbackResponse.question = json_data
         
         feedbackResponse = jsonpickle.encode(feedbackResponse, indent=4)
@@ -102,5 +102,5 @@ def main():
     http_app.run()
 
 if __name__ == "__main__":
-    HTTPLog4AI.print_log ('test_ai starting v0.13' )
+    HTTPLog4AI.print_log ('test_ai starting v0.131' )
     main()
