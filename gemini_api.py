@@ -92,6 +92,7 @@ class GeminiAPIKube:
         count = 0
         while True:
             try:
+                GeminiAPIKube.check_quota()
                 count += 1
                 if count >= 5:
                     raise  web.InternalError(json.dumps({"message": "AI Error Processing"})) 
@@ -103,14 +104,14 @@ class GeminiAPIKube:
                 try:
                     if GeminiAPIKube.is_json(response_json):
                         response_json = json.loads(response_json)
-                        if "py/object" in response_json:  # Check if the key exists (important!)
-                            del response_json["py/object"]  # Remove the "py/object" key
+                        #if "py/object" in response_json:  # Check if the key exists (important!)
+                        #    del response_json["py/object"]  # Remove the "py/object" key
                         response_json = json.dumps(response_json, indent=4)
-                        feedbackResponse = FeedbackResponse(**json.loads(response_json))
+                        #feedbackResponse = FeedbackResponse(**json.loads(response_json))
                         
-                        daily_count = next(iter(GeminiAPIKube.daily_count.values()), None)
-                        feedbackResponse.daily_count = daily_count
-                        response_json = jsonpickle.encode(feedbackResponse, indent=4)
+                        #daily_count = next(iter(GeminiAPIKube.daily_count.values()), None)
+                        #feedbackResponse.daily_count = daily_count
+                        #response_json = jsonpickle.encode(feedbackResponse, indent=4)
                         break
                 except Exception as error:
                     HTTPLog4AI.print_log (traceback.format_exc())

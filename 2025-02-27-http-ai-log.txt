@@ -1,2 +1,106 @@
 2025-02-27 12:34:33,334 - test_ai starting v0.131
 2025-02-27 12:34:50,784 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-27 12:39:46,674 - test_ai starting v0.131
+2025-02-27 12:39:56,041 - chat_test-->AIzaSyAzuH4xXqNC0Cs2D91nDU5L03DFJYFS0jE
+2025-02-27 12:40:13,960 - HTTPPostChatGeneral  total user-->1
+2025-02-27 12:40:13,968 - ques-->fill in the blank value. Fill in the answer value in the JSON element without special characters and double quote in the message. Do not change the json elements, fix the JSON and return a valid JSON in this JSON double quote format only for python processing. Response less than 100 words{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": null,
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "is_title_an_english_language": "",
+    "daily_count": 0
+}
+2025-02-27 12:40:17,026 - response.text-->```json
+{
+    "py/object": "gemini_api.FeedbackResponse",
+    "question": "anything special in 1990 in 3000 words",
+    "answer": "1990 was a year of significant global events.  The collapse of the Soviet Union loomed, impacting global politics.  Technological advancements continued, with the World Wide Web's early development and the launch of the Hubble Space Telescope.  Culturally, various musical genres and films were released.  Specific details depend on the focus required for 3000 words.",
+    "node_name": "default",
+    "isValidApplicationSuggestion": null,
+    "isHarmful": null,
+    "harmfulType": "",
+    "total_ask": 0,
+    "is_title_an_english_language": true,
+    "daily_count": 0
+}
+```
+
+2025-02-27 12:44:30,116 - test_ai starting v0.131
+2025-02-27 12:44:42,641 - HTTPPostChatGeneral  total user-->0
+2025-02-27 12:44:49,147 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 109, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+TypeError: FeedbackResponse.__init__() got an unexpected keyword argument 'description_en'
+
+2025-02-27 12:44:49,147 - Ask AI Parsing Response Error -->FeedbackResponse.__init__() got an unexpected keyword argument 'description_en' response={
+    "is_title_an_english_language": "yes",
+    "description_en": "ASEAN defense ministers met in Batu Ferringhi, Malaysia.  The meeting focused on boosting regional cooperation amidst evolving threats.  The event included a notable durian feast, highlighting Malaysian hospitality.  Discussions centered on strengthening defense ties and intra-regional cooperation within the defense industry, with Malaysia and Thailand reaffirming their commitment to ASEAN unity.",
+    "description_my": "ASEAN Menteri-menteri Pertahanan bermesyuarat di Batu Ferringhi, Malaysia. Mesyuarat itu memberi tumpuan kepada peningkatan kerjasama serantau di tengah-tengah ancaman yang semakin berkembang. Acara tersebut turut termasuk jamuan durian yang terkenal, menyerlahkan keramahan Malaysia. Perbincangan tertumpu kepada mengukuhkan hubungan pertahanan dan kerjasama serantau dalam industri pertahanan, dengan Malaysia dan Thailand mengesahkan komitmen mereka terhadap perpaduan ASEAN.",
+    "description_cn": "\u4e1c\u76df\u56fd\u9632\u90e8\u957f\u4eec\u5728\u9a6c\u6765\u897f\u4e9a\u7684\u5cc7\u90fd\u4e01\u5b9c\u4e3e\u884c\u4f1a\u8bae\u3002\u4f1a\u8bae\u7684\u91cd\u70b9\u662f\u5728\u4e0d\u65ad\u53d8\u5316\u7684\u5a01\u80c1\u4e0b\u52a0\u5f3a\u533a\u57df\u5408\u4f5c\u3002\u6d3b\u52a8\u5305\u62ec\u8457\u540d\u7684\u69b4\u83b2\u76db\u5bb4\uff0c\u7a81\u51fa\u4e86\u9a6c\u6765\u897f\u4e9a\u7684\u70ed\u60c5\u597d\u5ba2\u3002\u8ba8\u8bba\u96c6\u4e2d\u5728\u52a0\u5f3a\u56fd\u9632\u8054\u7cfb\u548c\u56fd\u9632\u5de5\u4e1a\u5185\u7684\u533a\u57df\u5185\u5408\u4f5c\uff0c\u9a6c\u6765\u897f\u4e9a\u548c\u6cf0\u56fd\u91cd\u7533\u4e86\u4ed6\u4eec\u5bf9\u4e1c\u76df\u56e2\u7ed3\u7684\u627f\u8bfa\u3002",
+    "isPositive": "yes",
+    "isPositive_explaination": "The news reports focus on cooperation and unity amongst ASEAN nations in the face of challenges, which is generally viewed as positive.",
+    "moral_story_en": "Collaboration and mutual respect are crucial for overcoming challenges and achieving shared goals.  Focusing on shared interests, even amidst differences, fosters stronger bonds and positive outcomes.",
+    "bible_verse": "Philippians 2:2: \"Complete my joy by being of the same mind, having the same love, being in full accord and of one mind.\"",
+    "bible_story": "The story of Joseph and his brothers in Genesis demonstrates the importance of forgiveness and reconciliation in building unity, even after significant conflict.",
+    "bible_story_cn": "\u521b\u4e16\u7eaa\u4e2d\u7ea6\u745f\u592b\u548c\u4ed6\u7684\u5144\u5f1f\u4eec\u7684\u6545\u4e8b\u5c55\u793a\u4e86\u5373\u4f7f\u5728\u4e25\u91cd\u7684\u51b2\u7a81\u4e4b\u540e\uff0c\u5bbd\u6055\u548c\u548c\u89e3\u5bf9\u5efa\u7acb\u56e2\u7ed3\u7684\u91cd\u8981\u6027\u3002",
+    "bible_story_pinyin": "chu\u00e0ngsh\u00ecj\u00ec zh\u014dng yu\u0113s\u00e8f\u016b h\u00e9 t\u0101 de xi\u014dngd\u00ecmen de g\u00f9sh\u00ec zh\u01censh\u00ec le j\u00edsh\u01d0 z\u00e0i y\u00e1nzh\u00f2ng de ch\u014dngt\u016b zh\u012bh\u00f2u, ku\u0101nsh\u00f9 h\u00e9 h\u00e9ji\u011b du\u00ec ji\u00e0nl\u00ec tu\u00e1nji\u00e9 de zh\u00f2ngy\u00e0o x\u00ecng\u3002",
+    "idiom_en": "Many hands make light work.",
+    "idiom_cn": "\u4eba\u591a\u529b\u91cf\u5927",
+    "idiom_my": "Biar ramai, ringan kerja.",
+    "idiom_explaination_en": "This idiom means that when many people work together on a task, the work becomes easier and less burdensome for each individual. It highlights the benefits of teamwork and collaboration.",
+    "idiom_explaination_my": "Peribahasa ini bermaksud apabila ramai orang bekerjasama untuk melakukan sesuatu tugas, kerja itu akan menjadi lebih mudah dan kurang membebankan bagi setiap individu. Ia menyerlahkan faedah kerja berpasukan dan kerjasama.",
+    "idiom_explaination_cn": "\u8fd9\u4e2a\u6210\u8bed\u7684\u610f\u601d\u662f\uff0c\u5f53\u5f88\u591a\u4eba\u4e00\u8d77\u5b8c\u6210\u4e00\u9879\u4efb\u52a1\u65f6\uff0c\u8fd9\u9879\u4efb\u52a1\u5bf9\u6bcf\u4e2a\u4eba\u7684\u8d1f\u62c5\u5c31\u4f1a\u51cf\u8f7b\u3002\u5b83\u7a81\u51fa\u4e86\u56e2\u961f\u5408\u4f5c\u548c\u534f\u4f5c\u7684\u597d\u5904\u3002"
+}
+2025-02-27 12:44:54,500 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 109, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+TypeError: FeedbackResponse.__init__() got an unexpected keyword argument 'description_en'
+
+2025-02-27 12:44:54,500 - Ask AI Parsing Response Error -->FeedbackResponse.__init__() got an unexpected keyword argument 'description_en' response={
+    "is_title_an_english_language": "yes",
+    "description_en": "ASEAN defense ministers met in Batu Ferringhi, Malaysia.  The meeting focused on boosting regional cooperation amidst evolving threats.  The event also featured Malaysian delicacies, notably Musang King durian and traditional kuih, highlighting both diplomatic and cultural aspects.",
+    "description_my": "Menteri-menteri pertahanan ASEAN mengadakan pertemuan di Batu Ferringhi, Malaysia. Pertemuan tersebut memberi tumpuan kepada peningkatan kerjasama serantau di tengah-tengah ancaman yang semakin berkembang. Acara tersebut turut menampilkan hidangan tempatan Malaysia, terutamanya durian Musang King dan kuih tradisional, yang menyerlahkan aspek diplomatik dan budaya.",
+    "description_cn": "\u4e1c\u76df\u56fd\u9632\u90e8\u957f\u4eec\u5728\u9a6c\u6765\u897f\u4e9a\u7684\u6d6e\u7f57\u4ea4\u6021\u4e3e\u884c\u4f1a\u8bae\u3002\u4f1a\u8bae\u91cd\u70b9\u5173\u6ce8\u5728\u4e0d\u65ad\u53d8\u5316\u7684\u5a01\u80c1\u4e0b\u52a0\u5f3a\u533a\u57df\u5408\u4f5c\u3002\u6d3b\u52a8\u8fd8\u4ee5\u9a6c\u6765\u897f\u4e9a\u7f8e\u98df\u4e3a\u7279\u8272\uff0c\u7279\u522b\u662f\u732b\u5c71\u738b\u69b4\u83b2\u548c\u4f20\u7edf\u7cd5\u70b9\uff0c\u7a81\u51fa\u4e86\u5916\u4ea4\u548c\u6587\u5316\u65b9\u9762\u3002",
+    "isPositive": "yes",
+    "isPositive_explaination": "The news highlights cooperation and unity among ASEAN nations in addressing security challenges, which is generally viewed positively.  The inclusion of cultural elements adds a positive, celebratory tone.",
+    "moral_story_en": "Collaboration and understanding, even in the face of adversity, lead to stronger bonds and improved outcomes.  Sharing cultural experiences fosters mutual respect and strengthens relationships.",
+    "bible_verse": "Philippians 2:2: \"Complete my joy by being of the same mind, having the same love, being united in spirit, striving together as one.\"",
+    "bible_story": "The story of Joseph and his brothers in Genesis demonstrates the power of forgiveness and reconciliation, leading to a resolution of conflict and ultimately, a stronger family.",
+    "bible_story_cn": "\u521b\u4e16\u7eaa\u4e2d\u7ea6\u745f\u592b\u548c\u4ed6\u5144\u5f1f\u4eec\u7684\u6545\u4e8b\u5c55\u793a\u4e86\u5bbd\u6055\u548c\u548c\u89e3\u7684\u529b\u91cf\uff0c\u6700\u7ec8\u89e3\u51b3\u4e86\u51b2\u7a81\uff0c\u5e76\u5efa\u7acb\u4e86\u4e00\u4e2a\u66f4\u5f3a\u5927\u7684\u5bb6\u5ead\u3002",
+    "bible_story_pinyin": "chu\u00e0ngsh\u00ecj\u00ec zh\u014dng yu\u0113s\u00e8f\u016b h\u00e9 t\u0101 xi\u014dngd\u00ecmen de g\u00f9sh\u00ec zh\u01censh\u00ec le ku\u0101ns\u00f9 h\u00e9 h\u00e9ji\u011b de l\u00ecli\u00e0ng, zu\u00eczh\u014dng ji\u011bju\u00e9 le ch\u014dngt\u016b, b\u00ecng ji\u00e0nl\u00ec le y\u012bg\u00e8 g\u00e8ng qi\u00e1ngd\u00e0 de ji\u0101t\u00edng.",
+    "idiom_en": "Birds of a feather flock together.",
+    "idiom_cn": "\u7269\u4ee5\u7c7b\u805a\uff0c\u4eba\u4ee5\u7fa4\u5206\u3002",
+    "idiom_my": "Bulat air kerana pembentung, bulat manusia kerana muafakat.",
+    "idiom_explaination_en": "This idiom means that people with similar interests, characteristics, or backgrounds tend to associate with each other.  It suggests that shared values and commonalities draw individuals together, leading to stronger bonds and collaborations.",
+    "idiom_explaination_my": "Peribahasa ini bermaksud orang yang mempunyai minat, ciri-ciri, atau latar belakang yang sama cenderung untuk bergaul antara satu sama lain. Ia menunjukkan bahawa nilai-nilai bersama dan persamaan menarik individu bersama-sama, yang membawa kepada ikatan yang lebih kuat dan kerjasama.",
+    "idiom_explaination_cn": "\u8fd9\u4e2a\u6210\u8bed\u7684\u610f\u601d\u662f\uff0c\u5fd7\u8da3\u76f8\u6295\u3001\u6027\u683c\u76f8\u4f3c\u6216\u80cc\u666f\u76f8\u4f3c\u7684\u4eba\u5f80\u5f80\u4f1a\u8d70\u5230\u4e00\u8d77\u3002\u5b83\u8868\u660e\u5171\u540c\u7684\u4ef7\u503c\u89c2\u548c\u5171\u540c\u70b9\u4f1a\u628a\u4eba\u4eec\u805a\u96c6\u5728\u4e00\u8d77\uff0c\u4ece\u800c\u5efa\u7acb\u66f4\u7262\u56fa\u7684\u8054\u7cfb\u548c\u5408\u4f5c\u3002"
+}
+2025-02-27 12:45:00,321 - Traceback (most recent call last):
+  File "C:\workspace\python_intro_ai_minikube\gemini_api.py", line 109, in ask_anything
+    feedbackResponse = FeedbackResponse(**json.loads(response_json))
+TypeError: FeedbackResponse.__init__() got an unexpected keyword argument 'description_en'
+
+2025-02-27 12:45:00,321 - Ask AI Parsing Response Error -->FeedbackResponse.__init__() got an unexpected keyword argument 'description_en' response={
+    "is_title_an_english_language": "true",
+    "description_en": "ASEAN defense ministers met in Batu Ferringhi, Malaysia.  The meeting focused on boosting regional cooperation amidst evolving threats.  News reports highlight the ministers' discussions on defense industry collaboration and the reaffirmation of bilateral ties between Malaysia and Thailand.  The event also included enjoying local delicacies like Musang King durian and traditional kuih.",
+    "description_my": "Menteri-menteri pertahanan ASEAN mengadakan mesyuarat di Batu Ferringhi, Malaysia. Mesyuarat itu memberi tumpuan kepada peningkatan kerjasama serantau di tengah-tengah ancaman yang semakin berkembang. Laporan berita mengetengahkan perbincangan menteri mengenai kerjasama industri pertahanan dan pengukuhan hubungan dua hala antara Malaysia dan Thailand. Acara itu turut termasuk menikmati hidangan tempatan seperti durian Musang King dan kuih tradisional.",
+    "description_cn": "\u4e1c\u76df\u56fd\u9632\u90e8\u957f\u4eec\u5728\u9a6c\u6765\u897f\u4e9a\u69df\u57ce\u5cc7\u90fd\u4e01\u5b9c\u4e3e\u884c\u4f1a\u8bae\u3002\u4f1a\u8bae\u91cd\u70b9\u5173\u6ce8\u5728\u4e0d\u65ad\u53d8\u5316\u7684\u5a01\u80c1\u4e0b\u52a0\u5f3a\u533a\u57df\u5408\u4f5c\u3002\u65b0\u95fb\u62a5\u9053\u5f3a\u8c03\u90e8\u957f\u4eec\u5c31\u56fd\u9632\u5de5\u4e1a\u5408\u4f5c\u4ee5\u53ca\u91cd\u7533\u9a6c\u6765\u897f\u4e9a\u548c\u6cf0\u56fd\u53cc\u8fb9\u5173\u7cfb\u7684\u8ba8\u8bba\u3002\u6d3b\u52a8\u8fd8\u5305\u62ec\u4eab\u7528\u732b\u5c71\u738b\u69b4\u83b2\u548c\u4f20\u7edf\u7cd5\u70b9\u7b49\u5f53\u5730\u7f8e\u98df\u3002",
+    "isPositive": "true",
+    "isPositive_explaination": "The news focuses on cooperation and strengthening of relationships between ASEAN nations, which are generally viewed as positive developments for regional stability and security.",
+    "moral_story_en": "Collaboration and communication are key to overcoming challenges and fostering strong relationships, both personally and internationally.  Working together allows for shared resources and perspectives to achieve a common goal.",
+    "bible_verse": "Philippians 2:2: \"Complete my joy by being of the same mind, having the same love, being united in spirit, aiming at one goal.\"",
+    "bible_story": "The story of Joseph and his brothers demonstrates the importance of reconciliation and forgiveness in overcoming conflict and building stronger relationships.  Despite being betrayed, Joseph ultimately forgave his brothers and worked to save them and their families during a famine.",
+    "bible_story_cn": "\u7ea6\u745f\u548c\u4ed6\u5144\u5f1f\u4eec\u7684\u6545\u4e8b\u8bf4\u660e\u4e86\u548c\u89e3\u548c\u9976\u6055\u5728\u514b\u670d\u51b2\u7a81\u548c\u5efa\u7acb\u66f4\u7262\u56fa\u7684\u5173\u7cfb\u4e2d\u7684\u91cd\u8981\u6027\u3002\u5c3d\u7ba1\u88ab\u80cc\u53db\uff0c\u7ea6\u745f\u6700\u7ec8\u539f\u8c05\u4e86\u4ed6\u7684\u5144\u5f1f\u4eec\uff0c\u5e76\u5728\u9965\u8352\u671f\u95f4\u52aa\u529b\u62ef\u6551\u4ed6\u4eec\u548c\u4ed6\u4eec\u7684\u5bb6\u4eba\u3002",
+    "bible_story_pinyin": "Yu\u0113s\u00e8 h\u00e9 t\u0101 xi\u014dngd\u00ecmen de g\u00f9sh\u00ec shu\u014dm\u00edng le h\u00e9ji\u011b h\u00e9 r\u00e1osh\u00f9 z\u00e0i k\u00e8f\u00fa ch\u014dngt\u016b h\u00e9 ji\u00e0nl\u00ec g\u00e8ng l\u00e1og\u00f9 de gu\u0101nxi zh\u014dng de zh\u00f2ngy\u00e0ox\u00ecng. J\u01d0ngu\u01cen b\u00e8i b\u00e8ip\u00e0n, Yu\u0113s\u00e8 zu\u00eczh\u014dng yu\u00e1nli\u00e0ng le t\u0101 de xi\u014dngd\u00ecmen, b\u00ecng z\u00e0i j\u012bhuang q\u012bji\u0101n n\u01d4l\u00ec ji\u00f9sh\u011bng t\u0101men h\u00e9 t\u0101men de ji\u0101r\u00e9n.",
+    "idiom_en": "Many hands make light work.",
+    "idiom_cn": "\u4eba\u591a\u529b\u91cf\u5927",
+    "idiom_my": "Biar ramai, ringan kerja.",
+    "idiom_explaination_en": "This idiom means that when many people work together on a task, the work becomes easier and less burdensome for each individual.  It highlights the benefits of teamwork and collaboration.",
+    "idiom_explaination_my": "Peribahasa ini bermaksud apabila ramai orang bekerjasama untuk sesuatu tugasan, tugasan itu akan menjadi lebih mudah dan kurang membebankan bagi setiap individu. Ia mengetengahkan kebaikan kerja berpasukan dan kerjasama.",
+    "idiom_explaination_cn": "\u8fd9\u4e2a\u6210\u8bed\u7684\u610f\u601d\u662f\u5f53\u5f88\u591a\u4eba\u4e00\u8d77\u5b8c\u6210\u4e00\u9879\u4efb\u52a1\u65f6\uff0c\u8fd9\u9879\u4efb\u52a1\u5bf9\u6bcf\u4e2a\u4eba\u7684\u8d1f\u62c5\u90fd\u4f1a\u51cf\u8f7b\u3002\u5b83\u7a81\u51fa\u4e86\u56e2\u961f\u5408\u4f5c\u548c\u534f\u4f5c\u7684\u597d\u5904\u3002"
+}
