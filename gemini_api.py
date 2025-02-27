@@ -112,9 +112,10 @@ class GeminiAPIKube:
                         response_json = jsonpickle.encode(feedbackResponse, indent=4)
                         break
                 except Exception as error:
-                    GeminiAPIKube.check_quota()
                     HTTPLog4AI.print_log (traceback.format_exc())
                     HTTPLog4AI.print_log ('Ask AI Parsing Response Error -->' + str(error) + ' response=' + str(response_json))
+                    GeminiAPIKube.check_quota()
+
             except Exception as error:
                 #model = Gemini.getAIKey()
                 #Log4News.log(str(ques) + " gemini ask  " + str( traceback.format_exc()))
