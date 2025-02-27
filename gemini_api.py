@@ -19,6 +19,7 @@ class FeedbackResponse:
     isHarmful: Optional[bool] = None
     harmfulType: str = ""
     total_ask: int = 0
+    is_title_an_english_language: str =""
     daily_count: int = 0
     
     
