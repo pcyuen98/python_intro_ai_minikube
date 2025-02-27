@@ -18,7 +18,7 @@ spec:
         app: python-ai
     spec:
       containers:
-        - image: python_ai:v0.14
+        - image: python_ai:latest
           name: python-ai-mxp4s
           imagePullPolicy: Never
           resources:
